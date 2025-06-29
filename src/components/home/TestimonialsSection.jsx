@@ -238,7 +238,9 @@ const TestimonialsSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <a 
-            href="/contact"
+            href="https://g.co/kgs/foSrPwb"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center bg-deep-teal text-white hover:bg-amber-gold transition-all duration-300 font-semibold px-8 py-3 rounded-lg"
           >
             Share Your Experience

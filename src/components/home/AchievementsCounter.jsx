@@ -41,6 +41,7 @@ const achievements = [
     icon: 'fas fa-chart-area',
     description: '',
     hasSubcounters: true,
+    suffix: ' Lakh+',
     subcounters: [
       { name: 'Sq.ft Delivered', value: 9, suffix: ' Lakh+' },
       { name: 'Sq.ft Ongoing & Upcoming', value: 20, suffix: ' Lakh+' }
@@ -172,7 +173,7 @@ const AchievementsCounter = () => {
               : achievement.value;
             
             // Suffix for the main counter
-            const suffix = achievement.hasSubcounters ? '+' : achievement.suffix;
+            const suffix = achievement.hasSubcounters ? (achievement.suffix || '+') : achievement.suffix;
 
             // Use the counter hook for the total value
             const { count, ref } = useCounter(totalValue, 2.5);
