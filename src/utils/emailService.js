@@ -3,11 +3,11 @@ import emailjs from '@emailjs/browser';
 // Initialize EmailJS with your User ID
 // Replace this with your actual EmailJS User ID when setting up in production
 const initEmailJS = () => {
-  emailjs.init('Xbc9Tah-W_IP3UG4x');
+  emailjs.init('FAhnewayFjCLChLZg');
 };
 
 // The client's email address to receive all inquiries
-const CLIENT_EMAIL = 'atharvataware07@gmail.com';
+const CLIENT_EMAIL = 'shankeshwarbuildcorp@gmail.com';
 
 // Format date for email
 const formatDate = (date) => {
@@ -41,8 +41,8 @@ export const sendPropertyInquiryEmail = async (formData, property) => {
 
     // Send the email (replace with your Service ID and Template ID)
     const response = await emailjs.send(
-      'service_z59b9pd',
-      'template_by0q658',
+      'service_1pfxq7e',
+      'template_v0401oe',
       templateParams
     );
 
@@ -76,8 +76,8 @@ export const sendContactFormEmail = async (formData) => {
 
     // Send the email (replace with your Service ID and Template ID)
     const response = await emailjs.send(
-      'service_z59b9pd', // Using the same service ID as the property inquiry
-      'template_95sr5i3',// IMPORTANT: Replace with your actual Contact Form Template ID from EmailJS
+      'service_1pfxq7e', // Using the same service ID as the property inquiry
+      'template_2jdkn61',// IMPORTANT: Replace with your actual Contact Form Template ID from EmailJS
       templateParams
     );
 
