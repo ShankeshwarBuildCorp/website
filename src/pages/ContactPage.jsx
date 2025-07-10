@@ -592,7 +592,7 @@ const ContactPage = () => {
                 <FiMail className="text-amber-gold text-2xl" />
               </div>
               <h3 className="text-lg font-medium mb-1">Email Us</h3>
-              <p className="text-sage-teal/90 text-center">{siteConfig.contact.officeEmail}</p>
+              <p className="text-sage-teal/90 text-center break-all">{siteConfig.contact.officeEmail}</p>
             </a>
             
             <a 

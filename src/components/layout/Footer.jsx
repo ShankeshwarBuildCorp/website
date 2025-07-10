@@ -120,9 +120,9 @@ export default function Footer() {
                 className="flex items-center"
               >
                 <img 
-                  src="/images/website/logo.png" 
+                  src="/images/website/white_logo.png" 
                   alt="Shankeshwar Buildcorp Logo" 
-                  className="h-14 mr-2"
+                  className="h-20 mr-2"
                 />
               </motion.div>
             </Link>
