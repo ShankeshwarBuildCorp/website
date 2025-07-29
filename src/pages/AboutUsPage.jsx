@@ -127,7 +127,7 @@ const AboutUsPage = () => {
               
               <motion.div variants={fadeIn}>
                 <p className="text-lg text-deep-teal/80 mb-6 leading-relaxed">
-                  Founded in 2011, Shankeshwar Buildcorp has grown from a small real estate venture to one of the most trusted developers in Pune. Our journey has been defined by an unwavering commitment to quality, innovation, and customer satisfaction.
+                  Founded in 2011, Shankeshwar Buildcorp earlier developing real estate projects under the brand umbrella Shankeshwar Group. Our journey has been defined by an unwavering commitment to quality, innovation, and customer satisfaction.
                 </p>
                 <p className="text-lg text-deep-teal/80 mb-8 leading-relaxed">
                   Over the years, we have successfully delivered residential, commercial, and mixed-use projects that stand as testaments to our dedication to excellence. Each property we develop is crafted with meticulous attention to detail, using the finest materials and cutting-edge construction techniques.
