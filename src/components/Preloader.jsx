@@ -18,7 +18,7 @@ const Preloader = ({ isLoading }) => {
       pointerEvents: isLoading ? 'auto' : 'none',
       transition: 'opacity 0.5s ease-in-out' // Smooth fade-out transition
     }}>
-      <img src="/images/website/truck.gif" alt="Loading..." style={{ width: '100px', height: '100px' }} />
+      <img src="/images/website/search.gif" alt="Loading..." style={{ width: '100px', height: '100px' }} />
     </div>
   );
 };
